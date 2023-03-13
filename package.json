@@ -1,0 +1,23 @@
+{
+  "name": "js-code",
+  "version": "1.0.0",
+  "description": "手写js代码",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shark-98/js-code.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shark-98/js-code/issues"
+  },
+  "homepage": "https://github.com/shark-98/js-code#readme",
+  "dependencies": {
+    "vitest": "^0.29.2"
+  }
+}
