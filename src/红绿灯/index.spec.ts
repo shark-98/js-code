@@ -1,11 +1,11 @@
 import { fn, OptionArr } from "."
 
 describe('红绿灯', () => {
-  it('红5s, 绿4s, 黄3s', async () => {
+  it('红1s, 绿1s, 黄1s', async () => {
     const option: OptionArr = [
-      { text: '红', time: 5 },
-      { text: '绿', time: 4 },
-      { text: '黄', time: 3 },
+      { text: '红', time: 1 },
+      { text: '绿', time: 1 },
+      { text: '黄', time: 1 },
     ]
     const expected = option.reduce((total, cur) => {
       const { text, time } = cur
