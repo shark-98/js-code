@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>动态加载资源文件</title>
+
+  <style>
+    .box {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .box button {
+      width: 300px;
+      margin-bottom: 20px;
+    }
+
+    p {
+      text-align: center;
+    }
+
+  </style>
+</head>
+
+<body>
+  <div class="box">
+    <button id="load-btn1">加载js1</button>
+    <button id="load-btn2">加载js2、3</button>
+    <button id="load-btn3">加载css1 - 页面背景变蓝</button>
+    <button id="load-btn4">加载css2、3 - 文本颜色变绿、字体变大</button>
+    <button id="load-btn5">加载图片 - 暂不支持</button>
+  </div>
+
+  <p>动态加载资源文件</p>
+
+  <script type="module" src="main.js"></script>
+</body>
+
+</html>
